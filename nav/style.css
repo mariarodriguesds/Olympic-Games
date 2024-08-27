@@ -1,0 +1,206 @@
+/*Site Olympic Games*/
+
+
+/* Nav */
+
+
+
+body {
+    overflow-x: hidden;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2B2A3D;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+
+  }
+  
+  #menu {
+    font-size:24px;
+  }
+  
+  li a:hover {
+    background-color: #373594;
+  }
+  
+  .active {
+    background-color: #2724DD;
+  }
+
+/* Fim da Nav*/
+
+/*Footer*/
+.footer{
+
+  background-color: #121213;
+  width: 100%;
+  height:100%;
+  float: left;
+  font-size: 18px;
+ 
+ }
+ 
+ .footer .left{ 
+ 
+  width:100%; 
+  float:left; 
+  border-bottom:1px #222424 solid;
+  border-right:0; 
+  margin-bottom:20px; 
+     padding-bottom:20px;
+ }
+ 
+ .footer .title-footer {
+ 
+  color: #ffffff;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: initial;
+     font-size:26px;
+     width:100%;
+     float:left;
+     margin-bottom:15px;
+ 
+ }
+ 
+ .footer .title-footer span{
+ 
+  color:  #2fcacf;
+  font-family:'DM Sans', sans-serif;
+  font-weight: bold;
+ 
+ }
+ 
+ /* Footer links */
+ 
+ .footer .links{
+  
+  width: 100%;
+  float: left;
+  color:  #ffffff;
+  margin-bottom: 20px;
+  padding: 0;
+ 
+ }
+ 
+ .footer .links a{
+ 
+     display: block;
+     line-height: 33px;
+     text-decoration: none;
+     color: #fff;
+     font-family:'DM Sans', sans-serif;
+     font-size:16px;
+     transition:0.3s;
+ 
+ 
+ }
+ 
+ .footer .links a:hover { color:#2fcacf; }
+ 
+ .footer .Copyright{
+ 
+  font-family:'DM Sans', sans-serif;
+  color:  #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 10px;
+ 
+ }
+ 
+ /*Rede Sociais*/
+ 
+ .footer .footer-icons{
+  
+  width:100%;
+  float:left;
+  margin-bottom:20px;
+ }
+ 
+ .footer .footer-icons a{
+ 
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 50px;
+     font-family:'DM Sans', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center; 
+  line-height: 35px;
+  margin-bottom: 5px;
+  transition:0.3s;
+ 
+ }
+ 
+ .footer .footer-icons a:hover{ background-color:#2fcacf; }
+ 
+ /*Right*/
+ 
+ .footer .right   { width:100%; float:left; }
+ .footer .right p {
+ 
+  font-family: 'DM Sans', sans-serif;
+  font-weight: initial;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 30px;
+  color: #ffffff;
+ 
+ }
+ 
+ /*formulario*/
+ 
+ 
+ 
+ .footer ::-webkit-input-placeholder {
+  color:  #5c666b;
+ }
+ 
+ .footer ::-moz-placeholder {
+  color:  #5c666b;
+  opacity: 1;
+ }
+ 
+ .footer :-ms-input-placeholder{
+  color:  #5c666b;
+ }
+ 
+ 
+ 
+ /*Responsive*/
+ @media (min-width: 1280px) {
+ 
+  .footer               { padding: 100px 50px 50px 100px; }
+  .footer .Copyright    { font-size: 16px; }
+  
+ }
+ 
+ @media (min-width: 768px) {
+  
+  .footer .left         { width:100%; border-bottom:0; padding-left:2% ; }
+  .footer .right        { width:48%; padding-left: 4%; border-left: 1px #222424 solid; } 
+  .footer form          { margin-top: 30px; }
+  .footer form          { display: block; }
+  .footer form button   { float: none; }
+ 
+ }
